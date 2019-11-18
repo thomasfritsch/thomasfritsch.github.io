@@ -1,0 +1,14 @@
+header {
+    background-color: darkslategray;
+    color: white;
+    padding: 50px;
+}
+
+#mainContainer {
+    text-align: center;
+    padding: 0px;
+}
+
+#infosDiv {
+    padding: 20px;
+}
