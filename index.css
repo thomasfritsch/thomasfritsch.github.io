@@ -1,7 +1,10 @@
-header {
-    background-color: darkslategray;
-    color: white;
-    padding: 50px;
+
+
+
+
+
+#image_fond_haut {
+    width: 100%;
 }
 
 #mainContainer {
@@ -11,4 +14,57 @@ header {
 
 #infosDiv {
     padding: 20px;
+}
+
+#lien {
+    color: darkblue;
+}
+@media all and (min-device-width: 1000px) {
+    #title {
+        font-size: 55px;
+        font-weight: bold;
+    }   
+    
+    header {
+        background-image: url("fond_haut.jpg");
+        height: 400px;
+        color: white;
+        padding-top: 150px;
+        
+    }
+
+    #subtitle {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+
+
+@media all and (max-device-width: 1000px) {
+
+    header {
+        background-image: url("fond_haut.jpg");
+        height: 250px;
+        color: white;
+        padding-top: 55px;
+        
+    }
+
+    #subtitle {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+
+    #title {
+        font-size: 70px;
+        font-weight: bold;
+    }
+    #middleTitle {
+        font-size: 50px;
+    }
+    #text {
+        font-size: 25px;
+    }
 }
