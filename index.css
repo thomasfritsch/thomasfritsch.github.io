@@ -1,7 +1,29 @@
 
+.sideBar {
+    background-color: #5bc0de;
+    color: white;
+    margin: 0px;
+    height: 700px;
+    
+}
 
+#separation{
+    background-color: orangered;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 20px;
+}
 
+#photoProfil {
+    width: 50%;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid white;
+}
 
+#titreSidebar {
+    font-size: 20px;
+}
 
 #image_fond_haut {
     width: 100%;
@@ -16,6 +38,29 @@
     padding: 20px;
 }
 
+#experienceDiv {
+    padding: 20px;
+}
+
+.entrepriseDiv {
+    
+}
+
+#titreEntreprise {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+#dateEntreprise {
+    color: #367385;
+    margin-bottom: 2px;
+}
+
+#texteEntreprise {
+    text-align: justify;
+    font-size: small;
+}
+
 #lien {
     color: darkblue;
 }
@@ -27,15 +72,24 @@
     
     header {
         background-image: url("fond_haut.jpg");
-        height: 400px;
+        height: 250px;
         color: white;
-        padding-top: 150px;
+        padding-top: 55px;
         
     }
 
     #subtitle {
         font-size: 20px;
         font-weight: bold;
+    }
+
+    #mainDiv {
+        width: 80%;
+        margin: auto;
+    }
+    #middleTitle {
+        text-align: left;
+        color: black;
     }
 }
 
@@ -45,9 +99,9 @@
 
     header {
         background-image: url("fond_haut.jpg");
-        height: 250px;
+        height: 150px;
         color: white;
-        padding-top: 55px;
+        padding-top: 25px;
         
     }
 
@@ -62,9 +116,10 @@
         font-weight: bold;
     }
     #middleTitle {
-        font-size: 50px;
+        text-align: left;
+        font-size: 30px;
     }
     #text {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
