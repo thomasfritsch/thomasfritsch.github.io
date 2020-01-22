@@ -23,6 +23,7 @@
 
 #titreSidebar {
     font-size: 20px;
+    font-weight: 500;
 }
 
 #image_fond_haut {
@@ -55,6 +56,22 @@
 #texteEntreprise {
     text-align: justify;
     font-size: small;
+}
+
+/* Formation */
+
+#formationDiv {
+    width: 500px;
+}
+
+#titreFormation {
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 2px;
+}
+
+#datesFormation {
+    float: left;
 }
 
 /* Diplome */
