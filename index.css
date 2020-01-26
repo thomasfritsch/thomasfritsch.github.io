@@ -74,6 +74,19 @@
     float: left;
 }
 
+/* Competences */
+
+#titreCompetences {
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 2px;
+}
+
+#texteCompetences {
+    text-align: center;
+    font-size: small;
+}
+
 /* Diplome */
 #titreDiplome {
     font-weight: bold;
@@ -138,8 +151,5 @@
     #middleTitle {
         text-align: left;
         font-size: 30px;
-    }
-    #text {
-        font-size: 20px;
     }
 }
