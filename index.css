@@ -1,4 +1,13 @@
 
+.downloadButton{
+    position: absolute;
+    right: 20px;
+    color: white;
+    background-color: transparent;  
+    border: 1px solid white;  
+    border-radius: 5px;
+}
+
 .sideBar {
     background-color: #2badd4;
     color: white;
